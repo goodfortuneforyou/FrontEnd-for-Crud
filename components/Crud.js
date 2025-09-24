@@ -4,6 +4,7 @@ import { Input, Button } from "web3uikit";
 import { abi, contractAddresses } from "../constants";
 
 export default function Crud() {
+
   const { chainId: chainIdHex, isWeb3Enabled } = useMoralis();
   const chainId = parseInt(chainIdHex);
   const crudAddress =
